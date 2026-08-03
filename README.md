@@ -13,13 +13,26 @@ Small, focused skills for coding agents.
 
 ## Install
 
-Copy the skill directory into a Codex project's `.codex/skills/` directory, or into the user-level `~/.codex/skills/` directory:
+Copy an individual skill directory to the location used by your coding agent.
+
+### Codex
 
 ```text
 .codex/skills/frontend-change-scout/
 ├── SKILL.md
 └── agents/openai.yaml
 ```
+
+Use `~/.codex/skills/frontend-change-scout/` for a user-level Codex installation.
+
+### Claude Code
+
+```text
+.claude/skills/frontend-change-scout/
+└── SKILL.md
+```
+
+Use `~/.claude/skills/frontend-change-scout/` for a user-level Claude Code installation. The skills in this repository use the portable Agent Skills format; Codex-specific `agents/openai.yaml` files are optional metadata and are not required by Claude Code.
 
 ## Use
 

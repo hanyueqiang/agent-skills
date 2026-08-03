@@ -13,13 +13,26 @@
 
 ## 安装
 
-将所需 skill 目录复制到 Codex 项目的 `.codex/skills/`，或用户级的 `~/.codex/skills/`：
+将单个 skill 目录复制到所使用编程 Agent 对应的目录。
+
+### Codex
 
 ```text
 .codex/skills/frontend-change-scout/
 ├── SKILL.md
 └── agents/openai.yaml
 ```
+
+用户级 Codex 安装路径为 `~/.codex/skills/frontend-change-scout/`。
+
+### Claude Code
+
+```text
+.claude/skills/frontend-change-scout/
+└── SKILL.md
+```
+
+用户级 Claude Code 安装路径为 `~/.claude/skills/frontend-change-scout/`。本仓库采用可移植的 Agent Skills 格式；`agents/openai.yaml` 是 Codex 可选元数据，Claude Code 不需要它。
 
 ## 使用
 
