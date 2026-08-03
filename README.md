@@ -9,6 +9,7 @@ Small, focused skills for coding agents.
 | Skill | Purpose |
 | --- | --- |
 | [`frontend-change-scout`](./frontend-change-scout/) | Map the smallest safe frontend change before implementation. |
+| [`design-system-reuse`](./design-system-reuse/) | Reuse existing design-system primitives before creating UI. |
 
 ## Install
 

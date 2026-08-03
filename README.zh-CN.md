@@ -9,6 +9,7 @@
 | Skill | 用途 |
 | --- | --- |
 | [`frontend-change-scout`](./frontend-change-scout/) | 在开始实现前，绘制最小且安全的前端改动地图。 |
+| [`design-system-reuse`](./design-system-reuse/) | 在创建 UI 前复用现有设计系统的组件与规范。 |
 
 ## 安装
 
