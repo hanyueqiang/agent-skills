@@ -10,6 +10,7 @@ Small, focused skills for coding agents.
 | --- | --- |
 | [`frontend-change-scout`](./frontend-change-scout/) | Map the smallest safe frontend change before implementation. |
 | [`design-system-reuse`](./design-system-reuse/) | Reuse existing design-system primitives before creating UI. |
+| [`legacy-mobile-style-compat`](./legacy-mobile-style-compat/) | Keep UI styles compatible with older mobile browsers and WebViews. |
 
 ## Install
 
@@ -18,12 +19,11 @@ Copy an individual skill directory to the location used by your coding agent.
 ### Codex
 
 ```text
-.codex/skills/frontend-change-scout/
-├── SKILL.md
-└── agents/openai.yaml
+.codex/skills/<skill-name>/
+└── SKILL.md
 ```
 
-Use `~/.codex/skills/frontend-change-scout/` for a user-level Codex installation.
+Use `~/.codex/skills/<skill-name>/` for a user-level Codex installation.
 
 ### Claude Code
 

@@ -10,6 +10,7 @@
 | --- | --- |
 | [`frontend-change-scout`](./frontend-change-scout/) | 在开始实现前，绘制最小且安全的前端改动地图。 |
 | [`design-system-reuse`](./design-system-reuse/) | 在创建 UI 前复用现有设计系统的组件与规范。 |
+| [`legacy-mobile-style-compat`](./legacy-mobile-style-compat/) | 让 UI 样式兼容较旧的移动浏览器与 WebView。 |
 
 ## 安装
 
@@ -18,12 +19,11 @@
 ### Codex
 
 ```text
-.codex/skills/frontend-change-scout/
-├── SKILL.md
-└── agents/openai.yaml
+.codex/skills/<skill-name>/
+└── SKILL.md
 ```
 
-用户级 Codex 安装路径为 `~/.codex/skills/frontend-change-scout/`。
+用户级 Codex 安装路径为 `~/.codex/skills/<skill-name>/`。
 
 ### Claude Code
 
