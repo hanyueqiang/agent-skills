@@ -11,6 +11,7 @@ Small, focused skills for coding agents.
 | [`frontend-change-scout`](./frontend-change-scout/) | Map the smallest safe frontend change before implementation. |
 | [`design-system-reuse`](./design-system-reuse/) | Reuse existing design-system primitives before creating UI. |
 | [`legacy-mobile-style-compat`](./legacy-mobile-style-compat/) | Keep UI styles compatible with older mobile browsers and WebViews. |
+| [`design-to-ui-converter`](./design-to-ui-converter/) | Convert design artifacts into UI using the project's existing component conventions. |
 
 ## Install
 

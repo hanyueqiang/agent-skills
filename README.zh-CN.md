@@ -11,6 +11,7 @@
 | [`frontend-change-scout`](./frontend-change-scout/) | 在开始实现前，绘制最小且安全的前端改动地图。 |
 | [`design-system-reuse`](./design-system-reuse/) | 在创建 UI 前复用现有设计系统的组件与规范。 |
 | [`legacy-mobile-style-compat`](./legacy-mobile-style-compat/) | 让 UI 样式兼容较旧的移动浏览器与 WebView。 |
+| [`design-to-ui-converter`](./design-to-ui-converter/) | 按项目现有组件规范将设计稿或导出代码转换为 UI。 |
 
 ## 安装
 
