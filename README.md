@@ -1,5 +1,7 @@
 # Agent Skills
 
+[简体中文](./README.zh-CN.md)
+
 Small, focused skills for coding agents.
 
 ## Skills
