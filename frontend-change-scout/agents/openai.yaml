@@ -1,0 +1,4 @@
+interface:
+  display_name: "Frontend Change Scout"
+  short_description: "Map the smallest safe frontend change."
+  default_prompt: "Use $frontend-change-scout to map the smallest safe change for this frontend request."
